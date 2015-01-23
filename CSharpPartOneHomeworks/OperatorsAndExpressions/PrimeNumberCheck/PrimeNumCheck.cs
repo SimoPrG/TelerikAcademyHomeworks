@@ -1,6 +1,6 @@
 ﻿//Problem 8. Prime Number Check
 
-//Write an expression that checks if given positive integer number n (n = 100) is prime 
+//Write an expression that checks if given positive integer number n (n <= 100) is prime 
 //(i.e. it is divisible without remainder only to itself and 1).
 
 using System;
@@ -11,9 +11,9 @@ class PrimeNumCheck
     {
         Console.Write("Enter a integer number: ");
         int num = int.Parse(Console.ReadLine());
-        if (num < 0)
+        if (num < 0 || num > 100)
         {
-            Console.WriteLine("Enter a positive integer number!");
+            Console.WriteLine("Enter a positive and less than or equal to 100 integer number !");
             return;
         }
         bool check = false;

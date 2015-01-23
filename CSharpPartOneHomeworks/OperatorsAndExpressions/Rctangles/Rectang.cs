@@ -3,11 +3,15 @@
 //Write an expression that calculates rectangle’s perimeter and area by given width and height.
 
 using System;
+using System.Threading;
+using System.Globalization;
 
 class Rectang
 {
     static void Main()
     {
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
         Console.WriteLine("Enter reactangle's width and height!");
         Console.Write("Width: ");
         float width = float.Parse(Console.ReadLine());

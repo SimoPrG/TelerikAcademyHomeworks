@@ -4,11 +4,16 @@
 //Write a program that calculates the weight of a man on the moon by a given weight on the Earth.
 
 using System;
+using System.Threading;
+using System.Globalization;
+
 
 class GravitOnTheMoon
 {
     static void Main()
     {
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
         Console.Write("Please, enter your weight: ");
         float weight = float.Parse(Console.ReadLine());
         float moonWeight = weight * 0.17F;

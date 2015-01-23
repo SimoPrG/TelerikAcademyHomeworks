@@ -4,11 +4,15 @@
 //and out of the rectangle R(top=1, left=-1, width=6, height=2).
 
 using System;
+using System.Threading;
+using System.Globalization;
 
 class PointInACircOutOfAReact
 {
     static void Main()
     {
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
         Console.WriteLine("Enter the coordinates of a point: ");
         Console.Write("x = ");
         double x = double.Parse(Console.ReadLine());

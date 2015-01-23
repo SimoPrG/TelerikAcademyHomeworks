@@ -3,11 +3,15 @@
 //Write an expression that checks if given point (x, y) is inside a circle K({0, 0}, 2).
 
 using System;
+using System.Threading;
+using System.Globalization;
 
 class PInACirc
 {
     static void Main()
     {
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
         Console.WriteLine("Enter the coordinates of a point: ");
         Console.Write("x = ");
         double x = double.Parse(Console.ReadLine());
