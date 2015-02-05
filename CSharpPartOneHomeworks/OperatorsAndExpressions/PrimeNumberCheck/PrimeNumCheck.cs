@@ -27,7 +27,7 @@ class PrimeNumCheck
                 break;
             }
         }
-        if (check == false && num != 1)
+        if (check == false && num != 1 && num != 0)
         {
             Console.WriteLine("The number is prime.");
         }

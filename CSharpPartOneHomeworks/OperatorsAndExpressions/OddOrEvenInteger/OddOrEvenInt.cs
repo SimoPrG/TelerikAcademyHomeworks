@@ -10,7 +10,7 @@ class OddOrEvenInt
     {
         Console.Write("Enter number: ");
         int numForCheck = int.Parse(Console.ReadLine());
-        bool isItTrue = numForCheck > 0 && numForCheck % 2 == 0;
+        bool isItTrue = numForCheck > 0 && numForCheck % 2 != 0;
         Console.WriteLine("Number is odd? {0}", isItTrue );
     }
 }
