@@ -73,6 +73,7 @@ class MaxSum
 
     static void PrintMatrix(int[,] matrix, int n, int m)
     {
+        Console.WriteLine("\nYour matrix is: ");
         for (int row = 0; row < n; row++)
         {
             for (int col = 0; col < m; col++)
