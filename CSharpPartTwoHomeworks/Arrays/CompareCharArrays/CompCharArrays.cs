@@ -10,7 +10,9 @@ class CompCharArrays
 {
     static void Main()
     {
+        Console.WriteLine("Please enter first char array, separated by space:");
         char[] charArrayOne = Console.ReadLine().ToCharArray();
+        Console.WriteLine("Please enter second char array, separated by space:");
         char[] charArrayTwo = Console.ReadLine().ToCharArray();
         int length = 0;
 

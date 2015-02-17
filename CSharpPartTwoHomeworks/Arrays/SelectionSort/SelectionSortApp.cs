@@ -12,7 +12,7 @@ class SelectionSortApp
 {
     static void Main()
     {
-        Console.Write("Please enter an array to srting, separated by space: ");
+        Console.Write("Please enter an array to sorting, separated by space: ");
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         Console.Write("Before sorting: ");
         Console.WriteLine(string.Join(", ", numbers));

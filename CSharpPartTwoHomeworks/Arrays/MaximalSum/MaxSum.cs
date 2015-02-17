@@ -40,7 +40,7 @@ class MaxSum
         }
 
         Console.WriteLine("The best sum is: {0} ", maxSum);
-        Console.Write("The best sequence is:");
+        Console.Write("The best sequence is: ");
         for (int i = startIndex; i <= endIndex; i++)
         {
             Console.Write(numbers[i] + ", ");

@@ -18,7 +18,7 @@ class BinSearch
 
 
         Array.Sort(numbers);
-        Console.WriteLine("The array after sorting:" + String.Join(", ", numbers));
+        Console.WriteLine("The array after sorting: " + String.Join(", ", numbers));
 
         int index = BinarySearch(numbers, element, 0, numbers.Length - 1);
 

@@ -12,6 +12,7 @@ class FindSumInArrayApp
     {
         Console.Write("Please enter an array, separated by space: ");
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        Console.Write("Please enter a sum (S): ");
         int sumForChek = int.Parse(Console.ReadLine());
         int startIndex = 0;
         int endIndex = 0;
@@ -42,7 +43,7 @@ class FindSumInArrayApp
             }
             if (broke)
             {
-                break;   
+                break;
             }
             if (i == numbers.Length - 1)
             {
@@ -50,6 +51,8 @@ class FindSumInArrayApp
                 return;
             }
         }
+
+        Console.Write("The sequence of given sum ({0}) is: ", sumForChek);
         for (int k = startIndex; k <= endIndex; k++)
         {
             Console.Write("{0}, ", numbers[k]);

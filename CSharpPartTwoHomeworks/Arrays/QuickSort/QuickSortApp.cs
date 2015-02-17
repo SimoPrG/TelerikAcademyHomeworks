@@ -11,9 +11,9 @@ class QuickSortApp
 {
     static void Main()
     {
-        //int[] numbers = { 1, 4, 7, 8, 9, 1, 2, 5, 7, 45, 12, 1, 2, 5, 8 };
-        Console.Write("Please enter values of an array, separated by space: ");
-        int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        int[] numbers = { 1, 4, 7, 8, 9, 1, 2, 5, 7, 45, 12, 1, 2, 5, 8 };
+        //Console.Write("Please enter values of an array, separated by space: ");
+        //int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         Console.WriteLine("The array before sorting: " + String.Join(", ", numbers));
         QuickSort(numbers, 0, numbers.Length - 1);
         Console.WriteLine("The array after sorting: " + String.Join(", ", numbers));
