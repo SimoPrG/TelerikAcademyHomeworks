@@ -1,0 +1,1 @@
+.NET is an integral part of many applications running on Windows and provides common functionality for those applications to run.

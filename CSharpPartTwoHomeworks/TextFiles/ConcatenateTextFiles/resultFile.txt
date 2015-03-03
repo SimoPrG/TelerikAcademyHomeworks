@@ -1,0 +1,3 @@
+.NET is an integral part of many applications running on Windows and provides common functionality for those applications to run.
+Microsoft .NET Framework е платформа, създадена от Microsoft, която предоставя програмен модел, библиотека от класове (FCL, Framework Class Library) 
+и среда за изпълнение на написан специално за нея програмен код (CLR, Common Language Runtime).
