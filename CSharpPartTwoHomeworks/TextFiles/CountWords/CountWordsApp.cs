@@ -9,6 +9,7 @@ using System;
 using System.IO;
 using System.Text;
 using System.Linq;
+using System.Collections.Generic;
 
 class CountWordsApp
 {
@@ -30,7 +31,11 @@ class CountWordsApp
             }
             using (var result = new StreamWriter(@"..\..\result.txt"))
             {
-                result.WriteLine(FindCount(testRead, wordsRead));
+                
+                foreach (var item in FindCount(testRead, wordsRead).OrderByDescending(x => x.Key))
+                {
+                    result.WriteLine(item.Value + " --> " + item.Key + " times.");
+                }
             }
         }
         catch (DirectoryNotFoundException ex)
@@ -59,9 +64,9 @@ class CountWordsApp
         }
     }
 
-    static string FindCount(string test, string words)
+    static Dictionary<int, string> FindCount(string test, string words)
     {
-        var result = new StringBuilder();
+        var result = new Dictionary<int, string>();
         string[] wordsArr = words.Split(new char[] { ' ', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()).ToArray();
         int count = 0;
 
@@ -78,10 +83,10 @@ class CountWordsApp
             }
             while (currTest.Contains(wordsArr[i]));
 
-            result.AppendLine(wordsArr[i] + " - " + count + " times.");
+            result.Add(count, wordsArr[i]);
             count = 0;
         }
-        return result.ToString();
+        return result;
     }
 }
 
