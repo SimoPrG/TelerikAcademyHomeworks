@@ -1,0 +1,2 @@
+The coordinates of point are: (1.3, 4, 7.89)
+The coordinates of point are: (4.5, 7.14, 12)
