@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RunnersHomePage", "RunnersHomePage\01.RunnersHomePage.csproj", "{9B48F6EA-B495-4ECC-BF2C-6513128DFD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.NestedLists", "NestedLists\02.NestedLists.csproj", "{1083FFBE-E494-470E-B939-9AED163DC582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SocialSite", "SocialSite\03.SocialSite.csproj", "{FD058968-CD76-4BEA-8505-693E3011E083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B48F6EA-B495-4ECC-BF2C-6513128DFD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B48F6EA-B495-4ECC-BF2C-6513128DFD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B48F6EA-B495-4ECC-BF2C-6513128DFD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B48F6EA-B495-4ECC-BF2C-6513128DFD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1083FFBE-E494-470E-B939-9AED163DC582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1083FFBE-E494-470E-B939-9AED163DC582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1083FFBE-E494-470E-B939-9AED163DC582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1083FFBE-E494-470E-B939-9AED163DC582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD058968-CD76-4BEA-8505-693E3011E083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD058968-CD76-4BEA-8505-693E3011E083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD058968-CD76-4BEA-8505-693E3011E083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD058968-CD76-4BEA-8505-693E3011E083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
