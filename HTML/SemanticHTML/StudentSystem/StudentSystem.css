@@ -1,0 +1,45 @@
+﻿body {
+    font-family: Arial;
+}
+
+#top-heading {
+    display: inline-block;
+}
+
+img {
+    vertical-align: top;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+table {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px 10px;
+}
