@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Last Name</th>
+                <td><input required="required" /></td>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td><input required="required" /></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="Address"></textarea></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input size="15" /> State <input size="5" /></td>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="Country">
+                        <option value="Bulgaria" selected="selected">Bulgaria</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone(country code, area code, number)</th>
+                <td>
+                    (+<input size="3" pattern="[0-9]{3}" placeholder="359" />)
+                    <input size="3" pattern="[0-9]{3}" placeholder="888" /> <input size="6" pattern="[0-9]{6}" placeholder="888888" />
+                </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" /></td>
+            </tr>
+            <tr>
+                <th>Birth day</th>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select name="Gender">
+                        <option value="Male" selected="selected">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <td>
+                    <input type="radio" name="starting" value="Spring 2015" id="spring" />
+                    <label for="spring">Spring 2015</label>
+                    <input type="radio" name="starting" value="Summer 2015" id="summer" />
+                    <label for="summer">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Comments/Questions</th>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="background-color:aqua"><input type="submit" value="Submit"/> <input type="reset" value="Clean This Form" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
