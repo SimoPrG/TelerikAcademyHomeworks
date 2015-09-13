@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker.csproj", "{28FE6BA3-4622-406E-81C4-419B0D2368F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Hand.ToString", "TDD.Hand.ToString\TDD.Hand.ToString.csproj", "{F182371B-95E6-48F1-AC3C-4B95383336F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.HandsChecker.IsValid", "TDD.HandsChecker.IsValid\TDD.HandsChecker.IsValid.csproj", "{ACE68FFD-3264-4850-9472-1B93C7071C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.HandsChecker.IsFlush", "TDD.HandsChecker.IsFlush\TDD.HandsChecker.IsFlush.csproj", "{DD64E7BD-2604-4CF9-A756-0C0F92A9281C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Checker.IsFourOfAKind", "TDD.Checker.IsFourOfAKind\TDD.Checker.IsFourOfAKind.csproj", "{F2F084FA-A693-46C1-8072-D4FD2DD11F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Card.ToString", "TDD.Card.ToString\TDD.Card.ToString.csproj", "{764A56DA-1A94-4A96-8B90-9D0DC2DBAB10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F182371B-95E6-48F1-AC3C-4B95383336F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F182371B-95E6-48F1-AC3C-4B95383336F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F182371B-95E6-48F1-AC3C-4B95383336F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F182371B-95E6-48F1-AC3C-4B95383336F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE68FFD-3264-4850-9472-1B93C7071C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE68FFD-3264-4850-9472-1B93C7071C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE68FFD-3264-4850-9472-1B93C7071C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE68FFD-3264-4850-9472-1B93C7071C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD64E7BD-2604-4CF9-A756-0C0F92A9281C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD64E7BD-2604-4CF9-A756-0C0F92A9281C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD64E7BD-2604-4CF9-A756-0C0F92A9281C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD64E7BD-2604-4CF9-A756-0C0F92A9281C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F084FA-A693-46C1-8072-D4FD2DD11F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F084FA-A693-46C1-8072-D4FD2DD11F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F084FA-A693-46C1-8072-D4FD2DD11F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F084FA-A693-46C1-8072-D4FD2DD11F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764A56DA-1A94-4A96-8B90-9D0DC2DBAB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764A56DA-1A94-4A96-8B90-9D0DC2DBAB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764A56DA-1A94-4A96-8B90-9D0DC2DBAB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764A56DA-1A94-4A96-8B90-9D0DC2DBAB10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingC", "FormattingC\FormattingC.csproj", "{0CB01105-8AFB-485E-AD4B-9B7402D9E8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingJavaScript", "WebApplication1\FormattingJavaScript.csproj", "{61888D13-D56D-4F96-A739-204B9C6FDCD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB01105-8AFB-485E-AD4B-9B7402D9E8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB01105-8AFB-485E-AD4B-9B7402D9E8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB01105-8AFB-485E-AD4B-9B7402D9E8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB01105-8AFB-485E-AD4B-9B7402D9E8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61888D13-D56D-4F96-A739-204B9C6FDCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61888D13-D56D-4F96-A739-204B9C6FDCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61888D13-D56D-4F96-A739-204B9C6FDCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61888D13-D56D-4F96-A739-204B9C6FDCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
