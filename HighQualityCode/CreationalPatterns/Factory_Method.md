@@ -19,7 +19,7 @@
 
 ###**Имплементация**
 
-```
+```cs
 static class Program
 {
     static void Main()
